@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1200px) {
+    #my-btn {
+        font-size: 2vw;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    #nav-bar h2 a {
+        font-size: 5vw;
+        pointer-events: none;
+    }
+
+    #nav-bar ul li a {
+        display: inline;
+        font-size: 2vw;
+        pointer-events: none;
+        margin: calc(0.5rem + 1vw);
+    }
+
+    #container {
+        align-items: center;
+        padding: 4vw;
+    }
+
+    #container>h1 {
+        font-size: 12vw;
+    }
+
+    #container>p {
+        font-size: 2vw;
+        width: 80vw;
+        text-align: center;
+    }
+
+    #container>a {
+        pointer-events: none;
+    }
+
+    .seperate {
+        height: 1vw;
+    }
+
+    #about {
+        padding: 2vw;
+    }
+
+    #about h1,
+    #about p {
+        width: 80%;
+    }
+
+    #about h1 {
+        font-size: 7vw;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+
+    #contact h1 {
+        font-size: 5vw;
+    }
+
+    .img-logo {
+        width: 17vw;
+        height: 17vw;
+    }
+
+    footer p {
+        font-size: min(1vw, 2rem);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #container>p {
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    #about h1,
+    #about p {
+        width: auto;
+    }
+
+    #about h1 {
+        font-size: 8vw;
+    }
+
+    #contact h1 {
+        font-size: 8vw;
+    }
+
+    #contact div a {
+        margin: 0 1.5rem;
+        padding: 0.7rem;
+    }
+}

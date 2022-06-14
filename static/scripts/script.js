@@ -20,7 +20,6 @@ document.body.onscroll = () => {
     if (scrollTop > lastScrollTop) {
         navbar.style.top = -height + "px";
     }
-
     else {
         navbar.style.top = "0px";
     }
@@ -29,7 +28,8 @@ document.body.onscroll = () => {
     // For Back to top button
     if (document.body.scrollTop > height || document.documentElement.scrollTop > height) {
         mybutton.style.display = "block";
-    } else {
+    }
+    else {
         mybutton.style.display = "none";
     }
 }
