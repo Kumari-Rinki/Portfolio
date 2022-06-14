@@ -103,9 +103,13 @@
     font-family: 'Roboto', sans-serif;
     text-align: justify;
     font-size: 1.3rem;
+    font-style: italic;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "Liberation Sans", "Roboto", "Noto", sans-serif;
     line-height: 2rem;
     padding: 0.5rem;
     width: 50vw;
+    text-transform: capitalize;
+    opacity: 0.9;
 }
 
 #work h1 {

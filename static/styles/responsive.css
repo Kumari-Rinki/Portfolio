@@ -9,13 +9,11 @@
 
     #nav-bar h2 a {
         font-size: 5vw;
-        pointer-events: none;
     }
 
     #nav-bar ul li a {
         display: inline;
         font-size: 2vw;
-        pointer-events: none;
         margin: calc(0.5rem + 1vw);
     }
 
@@ -35,7 +33,6 @@
     }
 
     #container>a {
-        pointer-events: none;
         font-size: 2vw;
     }
 
