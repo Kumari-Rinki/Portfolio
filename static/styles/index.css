@@ -86,13 +86,15 @@
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 1rem 3rem;
+    padding: 3rem 3rem;
+    padding-bottom: 5rem;
     color: white;
 }
 
 #about h1 {
     font-family: 'Alex Brush', cursive;
     font-size: 5rem;
+    padding: 0.5rem;
     width: 50vw;
     text-align: center;
 }
@@ -102,6 +104,7 @@
     text-align: justify;
     font-size: 1.3rem;
     line-height: 2rem;
+    padding: 0.5rem;
     width: 50vw;
 }
 
